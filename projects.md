@@ -8,8 +8,8 @@ group: navigation
 
 <h3>Personal</h3>
 <dl class="inline">
-	<dt>This website</dt>
-	<dd>Powered by Jekyll and Bootstrap</dd>
+	<dt><a href="https://github.com/calling/calling.github.com">This website</a></dt>
+	<dd>Powered by Jekyll and Jekyll-Bootstrap on Github pages</dd>
 </dl>
 
 <h3>Fall 2012</h3>
