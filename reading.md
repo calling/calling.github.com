@@ -17,7 +17,7 @@ group: navigation
 	      </div>
 	      <div id="collapseOne" class="accordion-body collapse" >
 	        <div class="accordion-inner">
-	          {% include instapaper-export.html %}
+	          {% include reading/instapaper-export.html %}
 	        </div>
 	      </div>
 	    </div>
@@ -29,12 +29,7 @@ group: navigation
 	      </div>
 	      <div id="collapseTwo" class="accordion-body collapse" >
 	        <div class="accordion-inner">
-	          <ul>
-	          	<li>Notes From the Underground</li>
-	          	<li>Godel, Escher, Bach</li>
-	          	<li>Code Complete 2</li>
-	          </ul>	
-
+	        	 {% include reading/books.html %}
 	        </div>
 	      </div>
 	    </div>
@@ -46,11 +41,7 @@ group: navigation
 	      </div>
 	      <div id="collapseThree" class="accordion-body collapse">
 	        <div class="accordion-inner">
-	          <ul>
-	          	<li>Hacker News</li>
-	          	<li>reddit.com/r/programming</li>
-	          	<li>nyt.com</li>
-	          </ul>
+				{% include reading/other.html %}
 	        </div>
 	      </div>
     </div>
