@@ -12,7 +12,7 @@ group: navigation
     <div class="accordion-group">
 	      <div class="accordion-heading">
 	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-	          Instapaper
+	          <h3>Instapaper</h3>
 	        </a>
 	      </div>
 	      <div id="collapseOne" class="accordion-body collapse" >
@@ -24,7 +24,7 @@ group: navigation
 	    <div class="accordion-group">
 	      <div class="accordion-heading">
 	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-	          Books
+	          <h3>Books</h3>
 	        </a>
 	      </div>
 	      <div id="collapseTwo" class="accordion-body collapse" >
@@ -41,7 +41,7 @@ group: navigation
 	    <div class="accordion-group">
 	      <div class="accordion-heading">
 	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-	          Blogs and other online sources
+	          <h3>Blogs and other online sources</h3>
 	        </a>
 	      </div>
 	      <div id="collapseThree" class="accordion-body collapse">
