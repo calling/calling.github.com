@@ -16,7 +16,7 @@ Here's how I spent my Winter Break.
 - RubyMonk: completed the Ruby Primer course
 - Rails for Zombies: completed CodeSchool's introductory Rails course
 - jQuery Air: First Flight: CodeSchool's jQuery course
-- NJAUMC organizational website: volunteering to develop a web presence for a summer camp I've participated, counseled, and directed. 
+- NJAUMC organizational website: volunteering to develop a web presence for a summer camp I've participated, counseled, and directed.
 
 ###Reading
 ####Leisure:
@@ -29,26 +29,3 @@ Here's how I spent my Winter Break.
 ####Blogs/Online:
 - Google Reader (Lifehacker, Co.Design, Design Observer, It's Nice That, swissmiss etc.)
 - Hacker News
-
-###Movies and Television
-- Fraiser (too episodes to even jokingly boast about)
-- Tall Man
-- Star Trek TNG
-- Reservoir Dogs
-- Innkeepers
-- Equilibrium
-- The Good, the Bad, the Weird,
-- Parking Lot Movie
-- 7 Up (and beyond)
-- Death at a Funeral
-- 13 Assassins
-- Django Unchained
-- Jack Reacher
-- Men In Black III
-- Carnage
-- Amazing Spiderman
-- Taken 2
-- Scanner Darkly
-- Parent Trap
-- Mrs. Doubtfire
-- Looper
