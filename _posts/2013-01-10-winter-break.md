@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Winter Break"
-description: ""
+description: "Productive and Relaxing"
 category: 
-tags: []
+tags: ["personal"]
 ---
 {% include JB/setup %}
 
