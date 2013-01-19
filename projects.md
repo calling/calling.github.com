@@ -8,8 +8,10 @@ group: navigation
 
 <h3>Personal</h3>
 <dl class="inline">
-	<dt><a href="https://github.com/calling/calling.github.com">This website</a></dt>
+	<dt><a href="//github.com/calling/calling.github.com">This website</a></dt>
 	<dd>Powered by Jekyll and Jekyll-Bootstrap on Github pages</dd>
+	<dt><a href="//njaumc.github.com">NJAUMC camp website</a></dt>
+	<dd>Powered by Jekyll on Github pages. Built design (HTML/CSS/JQuery) with Twitter Bootstrap. You can check out the code on <a href="//github.com/njaumc/njaumc.github.com">Github</a>.</dd>
 </dl>
 
 <h3>Fall 2012</h3>
