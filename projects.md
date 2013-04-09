@@ -14,6 +14,13 @@ group: navigation
 	<dd>Powered by Jekyll on Github pages. Built design (HTML/CSS/JQuery) with Twitter Bootstrap. You can check out the code on <a href="//github.com/njaumc/njaumc.github.com">Github</a>.</dd>
 </dl>
 
+<h3>Spring 2013</h3>
+<dl class="inline>">
+	<dt><a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-28.html">Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces (Second Author)</a></dt>
+	<dd>3D printers enable designers to rapidly produce working models of future products. Today these physical prototypes are mostly passive. Our research goal is to enable designers to turn models produced on commodity 3D printers into interactive objects with a minimum of required assembly or instrumentation. We present Sauron, an embedded machine vision-based system for sensing human input on physical controls like buttons, sliders, and joysticks. With Sauron, designers attach a single camera with integrated ring light to a printed prototype. This camera observes the interior portions of input components to determine their actuation and position. In many prototypes, input components may be occluded or outside the viewing frustum of a single camera. We introduce algorithms that generate internal geometry and calculate mirror placements to redirect input motion into the visible camera area. To investigate the space of designs that can be built with Sauron along with its limitations, we built prototype devices, evaluated the suitability of existing models for vision sensing, and performed an informal study with 3 CAD users. While our approach imposes some constraints on device design, results suggest that it is expressive and accessible enough to enable constructing a useful variety of devices.</dd>
+	<dt><a href="http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/ProgrammingAssignment3-Colin_Chang">aBart: Android App for new Bart Users</a></dt>
+	<dt><a href="http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/ProgrammingAssignment2-Colin_Chang">Paper: Android finger drawing application</a></dt>
+</dl>
 <h3>Fall 2012</h3>
 <dl class="inline>">
 	<dt><a href="http://www-inst.eecs.berkeley.edu/~cs162/fa12/Nachos/phase1.html">Operating Systems: Threading</a></dt>
