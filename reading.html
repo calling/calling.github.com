@@ -9,41 +9,30 @@ group: navigation
 <p>Here are some things I've been reading.</p>
 
 <div class="accordion" id="accordion2">
-    <div class="accordion-group">
-	      <div class="accordion-heading">
-	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-	          <h3>Instapaper</h3>
-	        </a>
-	      </div>
-	      <div id="collapseOne" class="accordion-body collapse" >
-	        <div class="accordion-inner">
-	          {% include reading/instapaper-export.html %}
-	        </div>
-	      </div>
-	    </div>
-	    <div class="accordion-group">
-	      <div class="accordion-heading">
-	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-	          <h3>Books</h3>
-	        </a>
-	      </div>
-	      <div id="collapseTwo" class="accordion-body collapse" >
-	        <div class="accordion-inner">
-	        	 {% include reading/books.html %}
-	        </div>
-	      </div>
-	    </div>
-	    <div class="accordion-group">
-	      <div class="accordion-heading">
-	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-	          <h3>Blogs and other online sources</h3>
-	        </a>
-	      </div>
-	      <div id="collapseThree" class="accordion-body collapse">
-	        <div class="accordion-inner">
-				{% include reading/other.html %}
-	        </div>
-	      </div>
-    </div>
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+				<h3>Instapaper</h3>
+			</a>
+		</div>
+		<div id="collapseOne" class="accordion-body collapse" >
+			<div class="accordion-inner">
+				{% include reading/instapaper-export.html %}
+			</div>
+		</div>
+	</div>
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+				<h3>Books</h3>
+			</a>
+		</div>
+		<div id="collapseTwo" class="accordion-body collapse" >
+			<div class="accordion-inner">
+				{% include reading/books.html %}
+			</div>
+		</div>
+	</div>
+
 </div>
 
