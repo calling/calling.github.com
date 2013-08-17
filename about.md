@@ -7,7 +7,7 @@ group: navigation
 {% include JB/setup %}
 
 <p>
-	Hi! I'm Colin Chang, a student a UC Berkeley. Formally, I study <a href="http://philosophy.berkeley.edu/">philosophy</a> and <a href="http://www.eecs.berkeley.edu/csugrad/index.shtml">computer science</a>. Informally, I'm interested in human computer interaction, psychology, and education.
+	Hi! I'm Colin Chang, an engineer at Adobe and a graduate of UC Berkeley. 
 </p>
 ##Handles:
 
