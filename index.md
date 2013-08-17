@@ -6,9 +6,18 @@ tagline: ""
 {% include JB/setup %}
 <div class="row">
 	<div class="span9">
-		<p>
-			Welcome to my homepage! I finally decided to set up a web presence. After doing some research on how to go about this, I settled on Jekyll, Jekyll-Bootstrap on Github pages.
-		</p>
+<p>
+	Hi! I am Colin Chang, an engineer at Adobe and a graduate of UC Berkeley. 
+</p>
+
+<h2>Handles:</h2>
+
+<ul class="unstyled">
+	<li><a href="mailto:{{site.author['email']}}">colinichang@gmail.com</a></li>
+	<li><a href="http://github.com/{{site.author['github']}}">Github</a></li>
+	<li><a href="http://linkedin.com/in/{{site.author['linkedin']}}">LinkedIn</a></li>
+	<li><a href="https://dl.dropbox.com/u/46163974/%5BColin%20Chang%5D%20Resume.pdf">Resume</a></li>
+</ul>
 	</div>
 	<div class="span3">
 		<img src="{{ ASSET_PATH }}images/Profile.jpg">
