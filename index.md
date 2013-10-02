@@ -4,8 +4,6 @@ title: Welcome!
 tagline: ""
 ---
 {% include JB/setup %}
-<div class="row">
-	<div class="span9">
 <p>
 	Hi! I am Colin Chang, an engineer at Adobe and a graduate of UC Berkeley. 
 </p>
@@ -18,11 +16,6 @@ tagline: ""
 	<li><a href="http://linkedin.com/in/{{site.author['linkedin']}}">LinkedIn</a></li>
 	<li><a href="https://www.dropbox.com/s/b34exlggqowpg6j/Colin%20Chang%27s%20Resume%20Adobe.pdf">Resume</a></li>
 </ul>
-	</div>
-	<div class="span3">
-		<img src="{{ ASSET_PATH }}images/Profile.jpg">
-	</div>
-</div>
 
 <h3>Posts</h3>
 
