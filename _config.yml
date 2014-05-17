@@ -1,0 +1,4 @@
+name: Colin's website
+markdown: redcarpet
+pygments: true
+safe: true #Github Pages requires safe
