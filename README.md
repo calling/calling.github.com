@@ -1,1 +1,0 @@
-Welcome to my open sourced website thanks to jekyll bootstrap!
