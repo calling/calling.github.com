@@ -1,0 +1,16 @@
+html, body {
+  font: 100% Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.header, .content, .footer {
+  padding: 10px; }
+
+.header {
+  background-color: #f1f1f1; }
+
+.footer {
+  background-color: #f1f1f1; }
