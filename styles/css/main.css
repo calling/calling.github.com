@@ -11,6 +11,20 @@ html, body {
 
 .header {
   background-color: #f1f1f1; }
+  .header h1 {
+    margin: 5px; }
+  .header a {
+    text-decoration: none;
+    color: black; }
+    .header a:hover {
+      text-decoration: underline; }
+  .header ul.nav {
+    list-style-type: none;
+    padding: 0; }
+  .header li {
+    font-size: 120%;
+    display: inline;
+    margin: 5px; }
 
 .footer {
   background-color: #f1f1f1; }

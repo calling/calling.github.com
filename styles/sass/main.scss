@@ -22,6 +22,29 @@ html, body {
 
 .header {
 	background-color: $tertiary-color;
+
+	h1 {
+		margin: 5px;
+	}
+
+	a {
+		text-decoration: none;
+		color: $secondary-color;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	ul.nav {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	li {
+		font-size: 120%;
+		display: inline;
+		margin: 5px;
+	}
 }
 
 .footer {
