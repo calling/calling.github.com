@@ -1,4 +1,6 @@
 name: Colin Chang
+description: Colin Chang's blog
+url: http://colinichang.com
 markdown: redcarpet
 pygments: true
 safe: true #Github Pages requires safe
