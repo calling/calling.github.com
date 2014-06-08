@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Projects"
+title: "CV"
 ---
 
 ##Professional
-###Adobe — Computer Scientist (May 2014-Present)
+###Adobe — Computer Scientist (May 2014 — Present)
 * Core developer on Creative Cloud for Teams.
 
 ###Adobe — Member of Technical Staff (July 2013 — May 2014)
 * Develop UI for creative.adobe.com.
-* Develop UI for an internal CMS. Stood up Jasmine test framework for unit tests. Wrote grunt.js config to minimize time spent in manual code reviews.
+* Develop UI for an internal CMS. Stood up Jasmine test framework for unit tests. Wrote grunt.js config to minimize churn in manual code reviews.
 
-### UC Berkeley, Berkeley Institute of Design — HCI Research Assistance (2013)
+### UC Berkeley, Berkeley Institute of Design — HCI Research Assistance (September 2012 - May 2013)
 * Second author on [Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces](http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-28.html).
 
 ##Personal Projects
