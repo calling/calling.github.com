@@ -9,10 +9,12 @@ html, body {
 .header, .content, .footer {
   padding: 10px; }
 
+.content, .header > *, .footer > * {
+  width: 700px;
+  margin: 0 auto; }
+
 .header {
   background-color: #f1f1f1; }
-  .header h1 {
-    margin: 5px; }
   .header a {
     text-decoration: none;
     color: black; }
@@ -24,7 +26,6 @@ html, body {
   .header li {
     font-size: 120%;
     display: inline;
-    margin: 5px;
     text-transform: lowercase; }
 
 .footer {

@@ -20,12 +20,13 @@ html, body {
 	padding: $padding;
 }
 
+.content, .header > *, .footer > * {
+	width: 700px;
+	margin: 0 auto;
+}
+
 .header {
 	background-color: $tertiary-color;
-
-	h1 {
-		margin: 5px;
-	}
 
 	a {
 		text-decoration: none;
@@ -43,7 +44,6 @@ html, body {
 	li {
 		font-size: 120%;
 		display: inline;
-		margin: 5px;
 		text-transform: lowercase;
 	}
 }
