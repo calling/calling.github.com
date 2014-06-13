@@ -1,4 +1,4 @@
-$font: Helvetica, sans-serif;
+$font: Helvetica Neue, sans-serif;
 
 $primary-color: #ffffff;
 $secondary-color: #000000;
@@ -8,7 +8,7 @@ $padding: 10px;
 
 // Reset User-Agents etc.
 html, body {
-	font: 100% $font;
+	font: 300 100% $font;
 	color: $secondary-color;
 	background-color: $primary-color;
 	margin: 0;
@@ -23,6 +23,14 @@ html, body {
 .content, .header > *, .footer > * {
 	max-width: 700px;
 	margin: 0 auto;
+}
+
+.content {
+	line-height: 1.6;
+}
+
+.post {
+	font-family: Computer Modern;
 }
 
 .header {

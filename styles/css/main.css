@@ -1,5 +1,5 @@
 html, body {
-  font: 100% Helvetica, sans-serif;
+  font: 300 100% Helvetica Neue, sans-serif;
   color: black;
   background-color: white;
   margin: 0;
@@ -12,6 +12,12 @@ html, body {
 .content, .header > *, .footer > * {
   max-width: 700px;
   margin: 0 auto; }
+
+.content {
+  line-height: 1.6; }
+
+.post {
+  font-family: Computer Modern; }
 
 .header {
   background-color: #f1f1f1; }
