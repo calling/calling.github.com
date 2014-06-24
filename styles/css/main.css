@@ -30,6 +30,27 @@ a {
     padding: 0.5em 10px;
     quotes: "\201C" "\201D" "\2018" "\2019"; }
 
+ul.posts {
+  list-style-type: none;
+  padding: 0; }
+  ul.posts h2 {
+    font-size: 1.25em;
+    margin: 0; }
+
+li.post-let {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */ }
+
+.excerpt {
+  padding: 0 5% 0 5%; }
+
 .post {
   font-family: Computer Modern; }
 

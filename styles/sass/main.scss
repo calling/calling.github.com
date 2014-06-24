@@ -8,6 +8,13 @@ $visited-link-color: #4a6b82;
 
 $padding: 10px;
 
+@mixin rounded-corners {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
 // Reset User-Agents etc.
 html, body {
 	font: 300 100% $font;
@@ -50,6 +57,27 @@ a {
 	  padding: 0.5em 10px;
 	  quotes: "\201C""\201D""\2018""\2019";
 	}
+}
+
+ul.posts {
+	list-style-type: none;
+	padding: 0;
+
+	h2 {
+		font-size: 1.25em;
+		margin: 0;
+	}
+}
+
+li.post-let {
+	background-color: $tertiary-color;
+	padding: $padding;
+	margin: 10px;
+	@include rounded-corners;
+}
+
+.excerpt {
+	padding: 0 5% 0 5%;
 }
 
 .post {

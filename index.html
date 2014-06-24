@@ -7,13 +7,13 @@ title: Colin Chang
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li>
+      <li class="post-let">
         <h2>
           <span>{{ post.date | date_to_string }}</span>
           &raquo;
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
-        {{ post.excerpt }}
+        <p class="excerpt">{{ post.excerpt | strip_html }}</p>
         <a href="{{ post.url }}">Read more</a>
       </li>
     {% endfor %}
