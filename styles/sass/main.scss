@@ -3,6 +3,8 @@ $font: Helvetica Neue, sans-serif;
 $primary-color: #ffffff;
 $secondary-color: #000000;
 $tertiary-color: #f1f1f1;
+$link-color: #07c;
+$visited-link-color: #4a6b82;
 
 $padding: 10px;
 
@@ -14,6 +16,19 @@ html, body {
 	margin: 0;
 	padding: 0;
 	border: 0;
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:visited {
+		color: $visited-link-color;
+	}
 }
 
 .header, .content, .footer {

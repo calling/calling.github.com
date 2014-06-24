@@ -6,6 +6,14 @@ html, body {
   padding: 0;
   border: 0; }
 
+a {
+  color: #0077cc;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #4a6b82; }
+
 .header, .content, .footer {
   padding: 10px; }
 
