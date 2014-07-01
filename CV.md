@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "CV"
+description: "Curriculum vitae. A summary of Colin Chang's projects and work history."
 ---
 
 ##Professional
