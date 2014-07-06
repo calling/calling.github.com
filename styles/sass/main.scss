@@ -114,6 +114,10 @@ li.post-let {
 		font-size: 120%;
 		display: inline;
 		text-transform: lowercase;
+
+		.active {
+			font-weight: bold;
+		}
 	}
 }
 

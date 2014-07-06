@@ -22,9 +22,14 @@
       <div class="header">
         <h1 class="title"><a href="/">{{ site.name }}</a></h1>
         <ul class="nav">
-          <li><a href="/">Blog</a></li>
-          <li><a href="/whoami.html">whoami</a></li>
-          <li><a href="/CV.html">CV</a></li>
+          {% for p in site.pages %}
+            <li>
+              <!-- Activate tab if the url matches or if tab is blog and page is a post -->
+              <a
+                {% if p.url == page.url or p.title == "Blog" and page.id %} class="active" {% endif %} 
+                href="{{p.url}}">{{p.title}}</a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
 
