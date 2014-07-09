@@ -119,4 +119,9 @@ li.post-let {
 
 .footer {
 	background-color: $tertiary-color;
+
+	.contact ul {
+		list-style-type: none;
+		padding: 0;
+	}
 }
