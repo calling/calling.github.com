@@ -59,6 +59,16 @@ a {
 	}
 }
 
+.header-blog {
+	> * {
+		display: inline;
+	}
+
+	a {
+		float: right;
+	}
+}
+
 ul.posts {
 	list-style-type: none;
 	padding: 0;
