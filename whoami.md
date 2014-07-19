@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "whoami"
 description: "A lay summary of Colin Chang."
 ---

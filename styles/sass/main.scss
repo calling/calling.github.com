@@ -87,6 +87,11 @@ li.post-let {
 .header {
 	background-color: $tertiary-color;
 
+	.title {
+		display: block;
+		font-size: 32px;
+	}
+
 	a {
 		text-decoration: none;
 		color: $secondary-color;

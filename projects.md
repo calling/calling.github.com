@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Projects"
 description: "Curriculum vitae. A summary of Colin Chang's projects and work history."
 ---
