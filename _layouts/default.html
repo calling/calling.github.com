@@ -23,6 +23,9 @@
         <a class="title" href="/">{{ site.name }}</a>
         <ul class="nav">
           {% for p in site.pages %}
+            {% if p.layout == "none" %}
+              {% continue %}
+            {% endif %}
             <li>
               <!-- Activate tab if the url matches or if tab is blog and page is a post -->
               <a
