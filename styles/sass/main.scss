@@ -15,14 +15,11 @@ $padding: 10px;
 	-khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
-// Reset User-Agents etc.
 html, body {
 	font: 300 100% $font;
 	color: $secondary-color;
 	background-color: $primary-color;
-	margin: 0;
-	padding: 0;
-	border: 0;
+
 }
 
 a {
