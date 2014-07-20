@@ -8,3 +8,12 @@ layout: default
   </time>
   {{ content }}
 </article>
+
+<div class="clearfix">
+  {% if page.previous %}
+  <a class="previous" href={{page.previous.url}}>Previous: {{page.title}}</a>
+  {% endif %}
+  {% if page.next %}
+  <a class="next" href={{page.next.url}}>Next: {{page.next.title}}</a>
+  {% endif %}
+</div>
