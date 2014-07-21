@@ -8,6 +8,8 @@ $visited-link-color: #4a6b82;
 
 $padding: 10px;
 
+$break-small: 450px;
+
 @mixin rounded-corners {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -91,6 +93,24 @@ li.post-let {
    display: block;
    height: 0;
    clear: both;
+}
+
+#now {
+	time {
+		padding: 0 $padding 0 0;
+		white-space: nowrap;
+	}
+	.title {
+		display: inline;
+		@media screen and (max-width: $break-small) {
+			display: block;
+			padding: 0 0 0 $padding;
+		}
+	}
+	h2 {
+		display: inline-block;
+		padding: 0 $padding 0 0;
+	}
 }
 
 .header {
