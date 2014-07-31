@@ -2,5 +2,7 @@ name: Colin Chang
 description: Colin Chang's blog and project repository
 url: http://colinichang.com
 markdown: redcarpet
-pygments: true
 safe: true #Github Pages requires safe
+
+sass:
+    style: :compressed
