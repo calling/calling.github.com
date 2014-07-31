@@ -2,7 +2,8 @@ name: Colin Chang
 description: Colin Chang's blog and project repository
 url: http://colinichang.com
 markdown: redcarpet
-safe: true #Github Pages requires safe
+safe: true #Github Pages overrides lsi to safe
+lsi: false #Github pages overrides lsi to false
 
 sass:
     style: :compressed
