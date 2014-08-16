@@ -5,4 +5,5 @@ safe: true #Github Pages overrides lsi to safe
 lsi: false #Github pages overrides lsi to false
 
 sass:
+    sass_dir: styles
     style: :compressed

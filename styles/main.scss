@@ -1,13 +1,10 @@
 ---
 layout: none
 ---
+@import 'colors';
+
 $font: Helvetica Neue, sans-serif;
 
-$primary-color: #ffffff;
-$secondary-color: #000000;
-$tertiary-color: #f1f1f1;
-$link-color: #07c;
-$visited-link-color: #4a6b82;
 
 $padding: 10px;
 
@@ -59,6 +56,11 @@ a {
 	  padding: 0.5em 10px;
 	  quotes: "\201C""\201D""\2018""\2019";
 	}
+}
+
+.highlight {
+	padding: $padding;
+	@include rounded-corners;
 }
 
 ul.posts {
