@@ -8,6 +8,6 @@
   title: "Now",
   url: "/now.html"
 }, {
-  title: "Whoami",
-  url: "/whoami.html"
+  title: "About",
+  url: "/about.html"
 }]

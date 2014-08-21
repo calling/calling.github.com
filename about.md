@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "whoami"
+title: "About"
 description: "A lay summary of Colin Chang."
 ---
 
