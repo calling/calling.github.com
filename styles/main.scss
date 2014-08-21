@@ -58,6 +58,10 @@ a {
 	}
 }
 
+.pagination {
+	text-align: center;
+}
+
 .highlight {
 	padding: $padding;
 	@include rounded-corners;
