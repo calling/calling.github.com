@@ -5,6 +5,7 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 ---
 
 ##Professional
+
 ###Adobe — Computer Scientist (May 2014 — Present)
 * Core developer on Creative Cloud for Teams.
 
