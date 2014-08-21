@@ -126,9 +126,17 @@
         container.appendChild(smallElement);
 
         // HTML-ize each entry
-        for (var i = 0; i < result.feed.entries.length; i++) {
-          var entry = result.feed.entries[i];
-          container.appendChild(func(entry));
+        var entries = result.feed.entries;
+        if (entries.length <= 0) {
+          var dustElement = document.createElement("div");
+          dustElement.className = "dust";
+          dustElement.appendChild(document.createTextNode("*dust*"));
+          container.appendChild(dustElement);
+        } else {
+          for (var i = 0; i < entries.length; i++) {
+            var entry = entries[i];
+            container.appendChild(func(entry));
+          }
         }
       }
     });
