@@ -1,0 +1,13 @@
+[{
+  title: "Blog",
+  url: "/index.html"
+}, {
+  title: "Projets",
+  url: "/projects.html"
+}, {
+  title: "Now",
+  url: "/now.html"
+}, {
+  title: "Whoami",
+  url: "/whoami.html"
+}]
