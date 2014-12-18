@@ -3,8 +3,8 @@ layout: none
 ---
 @import 'colors';
 
-$font: Helvetica Neue, sans-serif;
-
+$font: Montserrat, sans-serif;
+$font-content: Bembo;
 
 $padding: 10px;
 
@@ -47,6 +47,7 @@ a {
 }
 
 .content {
+	font-familt: $font-content;
 	line-height: 1.6;
 
 	blockquote {
