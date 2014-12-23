@@ -12,7 +12,7 @@ function maxXor(l, r) {
     var max = 0
     for (var i = l; i <= r; i++) {
         for (var j = l; j <= r ; j++) {
-            if (i <= j) { 
+            if (i <= j) {
                 var xor = i ^ j;
                 if (xor > max) {
                     max  = xor;
@@ -31,7 +31,7 @@ function createPairs(l, r) {
     var result = [];
     for (var i = l; i <= r; i++) {
         for (var j = l; j <= r ; j++) {
-            if (i <= j) { 
+            if (i <= j) {
                 result.push([i, j]);
             }
         }
