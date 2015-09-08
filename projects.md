@@ -15,7 +15,7 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 
 ###Adobe — Member of Technical Staff (July 2013 — May 2014)
 * Develop UI for creative.adobe.com.
-* Develop UI for an internal CMS. Stood up Jasmine test framework for unit tests. Wrote grunt.js config to minimize churn in manual code reviews.
+* Develop UI for an internal CMS. Stood up Jasmine test framework for unit tests. Wrote GruntJS config to minimize churn in manual code reviews.
 
 ### UC Berkeley, Berkeley Institute of Design — HCI Research Assistance (September 2012 - May 2013)
 * Second author on [Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces](http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-28.html).
