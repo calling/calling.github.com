@@ -4,27 +4,27 @@ title: "Projects"
 description: "Curriculum vitae. A summary of Colin Chang's projects and work history."
 ---
 
-##Professional
+## Professional
 
-###Adobe — Computer Scientist (May 2014 — Present)
+### Adobe — Computer Scientist (May 2014 — Present)
 * Technical lead for Adobe Admin Console, a web application built on BackboneJS.
 * Migrated Adobe Admin Console to RequireJS from namespace object pattern.
 * Re-wrote Adobe Admin Console's model/API layer to integrate with a new API version.
 * Optimized Adobe Admin Console's page rendering performance (35% improvement).
 * Built full stack internal JS application to manage feature releases. (Stack: ReactJS, SailsJS, Linux and MongoDB).
 
-###Adobe — Member of Technical Staff (July 2013 — May 2014)
+### Adobe — Member of Technical Staff (July 2013 — May 2014)
 * Develop UI for creative.adobe.com.
 * Develop UI for an internal CMS. Stood up Jasmine test framework for unit tests. Wrote GruntJS config to minimize churn in manual code reviews.
 
 ### UC Berkeley, Berkeley Institute of Design — HCI Research Assistance (September 2012 - May 2013)
 * Second author on [Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces](http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-28.html).
 
-##Personal Projects
+## Personal Projects
 * [This website](//github.com/calling/calling.github.com). Powered by Jekyll on Github pages. I wrote the HTML, SASS, and the content.
 * [NJAUMC camp website](//njaumc.github.com). Powered by Jekyll on Github pages. Built design (HTML/CSS/JQuery) with Twitter Bootstrap.
 
-##UC Berkeley Undergraduate Projects
+## UC Berkeley Undergraduate Projects
 * [Betternote: an Android App by ☃](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/Group:%E2%98%83). Features an infinitely zoomable canvas to create and organize ideas. Created using the [User Centered Design Cycle](http://en.wikipedia.org/wiki/User-centered_design).
 * [aBart: Android App for new Bart users](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/ProgrammingAssignment3-Colin_Chang). The result of user research, contextual inquiry, and field runs. aBart aims to make newcomers feel at home with Bay Area Rapid Transit.
 * [Paper: Android finger drawing application](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/ProgrammingAssignment2-Colin_Chang). Supports multiple colors and pen widths. Even a "Party!" mode (What's "Party!" mode? Check out the app to find out!).
