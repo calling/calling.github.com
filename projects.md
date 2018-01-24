@@ -7,8 +7,10 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 ## Professional
 
 ### Adobe — Computer Scientist (May 2014 — Present)
-* Technical lead for Adobe Admin Console (adminconsole.adobe.com/team), a web application built on BackboneJS.
-* Built full stack internal JS application to manage feature releases. (Stack: ReactJS, SailsJS, Linux and MongoDB).
+
+* Project lead (20+ engineers) for consolidation effort of Adobe's Team and Enterprise administration consoles. Catalyst for adoption of ES6, Karma/Jasmine unit testing, Protractor integration testing, and continuous integration.
+* Lead payment UI team to adopt Vue.js, Jest unit testing, webdriver.io integration testing and continuous integration.
+* Implement internal feature flag management tool (react.js, sails.js).
 
 ### Adobe — Member of Technical Staff (July 2013 — May 2014)
 * Develop UI for creative.adobe.com.
