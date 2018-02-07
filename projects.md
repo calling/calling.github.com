@@ -6,10 +6,13 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 
 ## Professional
 
-### Adobe — Computer Scientist (May 2014 — Present)
-
+### Adobe — Computer Scientist II (May 2017 — Present)
 * Project lead (20+ engineers) for consolidation effort of Adobe's Team and Enterprise administration consoles. Catalyst for adoption of ES6, Karma/Jasmine unit testing, Protractor integration testing, and continuous integration.
 * Lead payment UI team to adopt Vue.js, Jest unit testing, webdriver.io integration testing and continuous integration.
+
+### Adobe — Computer Scientist (May 2014 — May 2017)
+* Core developer on Creative Cloud for Teams.
+* Mentored intern through design process by prototyping a Backbone.js application.
 * Implement internal feature flag management tool (react.js, sails.js).
 
 ### Adobe — Member of Technical Staff (July 2013 — May 2014)
@@ -24,7 +27,7 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 * [NJAUMC camp website](//njaumc.github.com). Powered by Jekyll on Github pages. Built design (HTML/CSS/JQuery) with Twitter Bootstrap.
 
 ## UC Berkeley Undergraduate Projects
-* [Betternote: an Android App by ☃](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/Group:%E2%98%83). Features an infinitely zoomable canvas to create and organize ideas. Created using the [User Centered Design Cycle](http://en.wikipedia.org/wiki/User-centered_design).
+* [Betternote: an Android App by ☃](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/Group:%E2%98%83). Features an infinitely zoomable canvas to create and organize ideas. Created using the [User Centered Design Cycle](http://en.wikipedia.org/wiki/User-centered_design). Won CS160 (UI) Best Class Project: Originality.
 * [aBart: Android App for new Bart users](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/ProgrammingAssignment3-Colin_Chang). The result of user research, contextual inquiry, and field runs. aBart aims to make newcomers feel at home with Bay Area Rapid Transit.
 * [Paper: Android finger drawing application](http://husk.eecs.berkeley.edu/courses/cs160-sp13/index.php/ProgrammingAssignment2-Colin_Chang). Supports multiple colors and pen widths. Even a "Party!" mode (What's "Party!" mode? Check out the app to find out!).
 * [Operating Systems: Threading](http://www-inst.eecs.berkeley.edu/~cs162/fa12/Nachos/phase1.html)
