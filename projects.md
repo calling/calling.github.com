@@ -7,20 +7,31 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 ## Professional
 
 ### Adobe — Computer Scientist II (May 2017 — Present)
-* Project lead (20+ engineers) for consolidation effort of Adobe's Team and Enterprise administration consoles. Catalyst for adoption of ES6, Karma/Jasmine unit testing, Protractor integration testing, and continuous integration.
-* Lead payment UI team to adopt Vue.js, Jest unit testing, webdriver.io integration testing and continuous integration.
+* Led 20+ engineers in consolidation effort of Adobe’s Team and Enterprise administration consoles.
+* Catalyst for adoption of modern front-end tooling (e.g. ES6, sass, gulp).
+* Moved the team from ad hoc deployments to continuous integration by leveraging Karma/Jasmine unit testing, Protractor integration testing, and feature flags.
+* Led payment UI team to adopt Vue.js, Jest unit testing, webdriver.io integration testing and continuous integration.
 
 ### Adobe — Computer Scientist (May 2014 — May 2017)
-* Core developer on Creative Cloud for Teams.
+* Owned application development and dev-ops for a server-less web application enabling license delegates and administrators to accept invitations (Angular.js, AWS Cloudfront, AWS S3).
 * Mentored intern through design process by prototyping a Backbone.js application.
-* Implement internal feature flag management tool (react.js, sails.js).
+* Implemented internal feature flag management tool (react.js, sails.js).
+* Contributed to deprecate jQuery in cross-Adobe component UI library.
 
 ### Adobe — Member of Technical Staff (July 2013 — May 2014)
-* Develop UI for creative.adobe.com.
-* Develop UI for an internal CMS. Stood up Jasmine test framework for unit tests. Wrote GruntJS config to minimize churn in manual code reviews.
+* Engineered UI for creative.adobe.com using Backbone.js.
+* Developed UI and UX for an internal CMS using Backbone.js, Grunt.js, and Jasmine.
 
 ### UC Berkeley, Berkeley Institute of Design — HCI Research Assistance (September 2012 - May 2013)
-* Second author on [Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces](http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-28.html).
+* Aided a graduate student with 3D printing research.
+* Developed camera detectable controller input capabilities using openframeworks (C++).
+* Second author on UIST submission and Berkeley EECS technical reports.
+
+### UC Berkeley - Lab Assistant for CS61A (September 2012 – December 2012)
+* Helped around 40 undergraduates learn functional programming (Scheme and Python).
+
+## Publications
+* UC Berkeley: [Sauron: Embedded Single-Camera Sensing of Printed Physical User Interfaces](http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-28.html).
 
 ## Personal Projects
 * [This website](//github.com/calling/calling.github.com). Powered by Jekyll on Github pages. I wrote the HTML, SASS, and the content.
