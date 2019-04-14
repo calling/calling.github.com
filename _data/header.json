@@ -1,10 +1,7 @@
 [{
-  title: "Blog",
-  url: "/index.html"
+  title: "About",
+  url: "/"
 }, {
   title: "Projects",
   url: "/projects.html"
-}, {
-  title: "About",
-  url: "/about.html"
 }]

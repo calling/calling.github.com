@@ -1,43 +1,9 @@
 ---
 layout: page
-title: Blog
+title: "About"
+description: "A lay summary of Colin Chang."
 ---
 
-<ul class="posts">
-  {% for post in paginator.posts %}
-    <li class="post-let">
-      <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <p class="excerpt">{{ post.excerpt | strip_html }}</p>
-      <a href="{{ post.url }}">Read more</a>
-    </li>
-  {% endfor %}
-</ul>
+My name is Colin Chang. I am currently employed as a Computer Scientist at Adobe in Seattle, WA. I graduated from UC Berkeley with a BA in Philosophy and a minor in Computer Science in 2013. My engineering interests include Human Computer Interaction and Systems. Philosophy-wise, I'm interested in philosophy of mind, language, logic and phenomenology. 
 
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
+If you would like to contact me, please find my email in the footer.
