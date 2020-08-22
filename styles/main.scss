@@ -1,7 +1,8 @@
 ---
 layout: none
 ---
-@import 'colors';
+
+@import "colors";
 
 $font: Montserrat, sans-serif;
 $font-content: Bembo;
@@ -11,160 +12,164 @@ $padding: 10px;
 $break-small: 450px;
 
 @mixin rounded-corners {
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px; /* future proofing */
-	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
-html, body {
-	font: 300 100% $font;
-	color: $secondary-color;
-	background-color: $primary-color;
-
+html,
+body {
+  font: 300 100% $font;
+  color: $secondary-color;
+  background-color: $primary-color;
 }
 
 a {
-	color: $link-color;
-	text-decoration: none;
+  color: $link-color;
+  text-decoration: none;
 
-	&:hover {
-		text-decoration: underline;
-	}
+  &:hover {
+    text-decoration: underline;
+  }
 
-	&:visited {
-		color: $visited-link-color;
-	}
+  &:visited {
+    color: $visited-link-color;
+  }
 }
 
-.header, .content, .footer {
-	padding: $padding;
+.header,
+.content,
+.footer {
+  padding: $padding;
 }
 
-.content, .header > *, .footer > * {
-	max-width: 700px;
-	margin: 0 auto;
+.content,
+.header > *,
+.footer > * {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .content {
-	font-familt: $font-content;
-	line-height: 1.6;
+  font-familt: $font-content;
+  line-height: 1.6;
 
-	blockquote {
-	  background: #f9f9f9;
-	  border-left: 10px solid #ccc;
-	  margin: 1.5em 10px;
-	  padding: 0.5em 10px;
-	  quotes: "\201C""\201D""\2018""\2019";
-	}
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
 }
 
 .pagination {
-	text-align: center;
+  text-align: center;
 }
 
 .highlight {
-	padding: $padding;
-	@include rounded-corners;
+  padding: $padding;
+  @include rounded-corners;
 }
 
 ul.posts {
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 
-	h2 {
-		font-size: 1.25em;
-		margin: 0;
-	}
+  h2 {
+    font-size: 1.25em;
+    margin: 0;
+  }
 }
 
 li.post-let {
-	background-color: $tertiary-color;
-	padding: $padding;
-	margin: 10px;
-	@include rounded-corners;
+  background-color: $tertiary-color;
+  padding: $padding;
+  margin: 10px;
+  @include rounded-corners;
 }
 
 .excerpt {
-	padding: 0 5% 0 5%;
+  padding: 0 5% 0 5%;
 }
 
 .previous {
-	float: left;
+  float: left;
 }
 
 .next {
-	float: right;
+  float: right;
 }
 
 .clearfix:after {
-   content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 #now {
-	time {
-		padding: 0 $padding 0 0;
-		white-space: nowrap;
-	}
-	.title {
-		display: inline;
-		@media screen and (max-width: $break-small) {
-			display: block;
-			padding: 0 0 0 $padding;
-		}
-	}
-	h2 {
-		display: inline-block;
-		padding: 0 $padding 0 0;
-	}
+  time {
+    padding: 0 $padding 0 0;
+    white-space: nowrap;
+  }
+  .title {
+    display: inline;
+    @media screen and (max-width: $break-small) {
+      display: block;
+      padding: 0 0 0 $padding;
+    }
+  }
+  h2 {
+    display: inline-block;
+    padding: 0 $padding 0 0;
+  }
 }
 
 .dust {
-	font-size: x-small;
-	color: $gray-text-color;
+  font-size: x-small;
+  color: $gray-text-color;
 }
 
 .header {
-	background-color: $tertiary-color;
+  background-color: $tertiary-color;
 
-	.title {
-		display: block;
-		font-size: 32px;
-	}
+  .title {
+    display: block;
+    font-size: 32px;
+  }
 
-	a {
-		text-decoration: none;
-		color: $secondary-color;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
+  a {
+    text-decoration: none;
+    color: $secondary-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
-	ul.nav {
-		list-style-type: none;
-		padding: 0;
-	}
+  ul.nav {
+    list-style-type: none;
+    padding: 0;
+  }
 
-	li {
-		font-size: 120%;
-		display: inline;
-		text-transform: lowercase;
+  li {
+    font-size: 120%;
+    display: inline;
+    text-transform: lowercase;
 
-		.active {
-			font-weight: bold;
-		}
-	}
+    .active {
+      font-weight: bold;
+    }
+  }
 }
 
 .footer {
-	background-color: $tertiary-color;
+  background-color: $tertiary-color;
 
-	.contact ul {
-		list-style-type: none;
-		padding: 0;
-	}
+  .contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
 }

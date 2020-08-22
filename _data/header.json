@@ -1,7 +1,10 @@
-[{
-  title: "About",
-  url: "/"
-}, {
-  title: "Projects",
-  url: "/projects.html"
-}]
+[
+  {
+    "title": "About",
+    "url": "/"
+  },
+  {
+    "title": "Projects",
+    "url": "/projects.html"
+  }
+]

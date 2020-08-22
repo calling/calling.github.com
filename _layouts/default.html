@@ -28,7 +28,7 @@
             <li>
               <!-- Activate tab if the url matches or if tab is blog and page is a post -->
               <a
-                {% if p.url == page.url or p.title == "Blog" and page.id %} class="active" {% endif %} 
+                {% if p.url == page.url or p.title == "Blog" and page.id %} class="active" {% endif %}
                 href="{{p.url}}">{{p.title}}</a>
             </li>
           {% endfor %}

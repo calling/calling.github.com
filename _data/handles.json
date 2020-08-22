@@ -1,7 +1,10 @@
-[{
-  name: "github.com/calling",
-  url: "https://github.com/calling"
-}, {
-  name: "linkedin.com/in/colinichang",
-  url: "https://www.linkedin.com/in/colinichang"
-}]
+[
+  {
+    "name": "github.com/calling",
+    "url": "https://github.com/calling"
+  },
+  {
+    "name": "linkedin.com/in/colinichang",
+    "url": "https://www.linkedin.com/in/colinichang"
+  }
+]
