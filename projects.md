@@ -6,7 +6,11 @@ description: "Curriculum vitae. A summary of Colin Chang's projects and work his
 
 ## Professional
 
-### Adobe — Computer Scientist II (May 2017 — Present)
+### Adobe — Senior Software Engineer and Lead (January 2019 — Present)
+
+Responsible for live streaming architecture and feature implementation as well as feature breakdown, bug and tech debt triaging and mentorship. I've also introduced a variety of tooling to the legacy codebase including Prettier and Typescript.
+
+### Adobe — Computer Scientist II (May 2017 — January 2019)
 
 -   Led 20+ engineers in consolidation effort of Adobe’s Team and Enterprise administration consoles.
 -   Catalyst for adoption of modern front-end tooling (e.g. ES6, sass, gulp).
