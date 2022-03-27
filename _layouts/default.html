@@ -39,22 +39,6 @@
         {{ content }}
       </div>
 
-      <div class="footer">
-        <div class="contact">
-          <p>
-            Colin Chang<br />
-            New York, NY<br />
-            colin at colinchang dot org
-          </p>
-        </div>
-        <div class="contact">
-          <ul>
-          {% for handle in site.data.handles %}
-            <li><a target="_blank" href="{{ handle.url }}">{{ handle.name }}</a><br /></li>
-          {% endfor %}
-          </ul>
-        </div>
-      </div>
       <script src="/scripts/google-analytics.js" async></script>
       <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </body>
