@@ -18,11 +18,27 @@ $break-small: 450px;
   -khtml-border-radius: 10px; /* for old Konqueror browsers */
 }
 
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-bg: #ffffff;
+    --body-color: #000000;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #000000;
+    --body-color: #ffffff;
+  }
+}
+
 html,
 body {
   font: 300 100% $font;
-  color: $secondary-color;
-  background-color: $primary-color;
+  background: var(--body-bg);
+  color: var(--body-color);
 }
 
 a {
@@ -143,7 +159,7 @@ li.post-let {
 
   a {
     text-decoration: none;
-    color: $secondary-color;
+    color: #000000;
     &:hover {
       text-decoration: underline;
     }
