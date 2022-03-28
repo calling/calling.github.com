@@ -2,8 +2,7 @@
 layout: none
 ---
 
-$font: Montserrat, sans-serif;
-$font-content: Bembo;
+$font: Helvetica;
 
 $padding: 10px;
 
@@ -78,7 +77,6 @@ a {
 }
 
 .content {
-  font-family: $font-content;
   line-height: 1.6;
 
   blockquote {
