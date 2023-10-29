@@ -6,6 +6,6 @@ Personal Website
 
 Install docker and docker-compose
 
-```
+```bash
 docker-compose up
 ```

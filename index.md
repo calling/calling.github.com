@@ -1,7 +1,13 @@
 ---
-layout: page
-title: "About"
-description: "Home page"
+title: "Colin Chang - Software Engineering Manager"
+layout: "home"
+description: "Colin Chang's personal website"
 ---
 
-My name is Colin Chang and I'm based in Brookyln, NY. I'm happy to discuss professional topics via [LinkedIn](https://www.linkedin.com/in/colinichang/) or personal topics via email at colin at colinchang.org.
+# Colin Chang
+
+Software Engineering Manager
+
+- [LinkedIn](https://www.linkedin.com/in/colinichang/)
+- [Github](https://github.com/calling)
+- colin at colinchang dot org
