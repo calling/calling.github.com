@@ -27,6 +27,7 @@ body {
   font-family: Verdana;
   background: var(--body-bg);
   color: var(--body-color);
+  line-height: 1.6;
 }
 
 a {
@@ -42,19 +43,31 @@ a {
   }
 }
 
-.content {
-  padding: 10px;
-  line-height: 1.5;
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+li {
+  margin: 0.5rem 0;
 }
 
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
+  text-align: center;
   margin-top: 10px;
-}
 
-.home > * {
-  margin: 0;
+  ul {
+    display: inline-block;
+    text-align: left;
+  }
 }
