@@ -2,6 +2,10 @@
 layout: none
 ---
 
+:root {
+  --font: 1em/1.6 Verdana;
+}
+
 /* Light mode */
 @media (prefers-color-scheme: light) {
   :root {
@@ -22,52 +26,16 @@ layout: none
   }
 }
 
-html,
-body {
-  font-family: Verdana;
-  background: var(--body-bg);
-  color: var(--body-color);
-  line-height: 1.6;
-}
-
-a {
-  color: var(--link-color);
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-
-  &:visited {
-    color: var(--visited-link-color);
-  }
-}
-
-h1 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
-ul,
-ol {
-  padding-left: 20px;
-  margin-bottom: 1em;
-  margin-top: 0;
-}
-
-li {
-  margin: 0.5rem 0;
-}
-
 .home {
   text-align: center;
-  margin-top: 10px;
 
   ul {
     display: inline-block;
     text-align: left;
+    margin-top: 0;
+  }
+
+  li {
+    margin: 0.25em 0;
   }
 }

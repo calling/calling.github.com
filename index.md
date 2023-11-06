@@ -1,6 +1,6 @@
 ---
 title: "Colin Chang - Software Engineering Manager"
-layout: "home"
+class: "home"
 description: "Colin Chang's personal website"
 ---
 
