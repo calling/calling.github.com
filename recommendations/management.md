@@ -1,3 +1,7 @@
+---
+description: A curated list of management books, resources and tactics for engineering leaders
+---
+
 # Management Resources
 
 Management tactics (how to run 1:1s and how to give feedback): [https://www.manager-tools.com/](https://www.manager-tools.com/)

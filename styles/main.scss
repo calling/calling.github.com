@@ -13,6 +13,7 @@ layout: none
     --body-color: #333333;
     --link-color: #0066b2;
     --visited-link-color: #7f4982;
+    --nav-bg: #ffffff; /* Slightly lighter than body background */
   }
 }
 
@@ -23,6 +24,7 @@ layout: none
     --body-color: #eaeaea;
     --link-color: #3399ff;
     --visited-link-color: #b066b0;
+    --nav-bg: #2a2a2a; /* Slightly lighter than body background */
   }
 }
 
@@ -43,4 +45,17 @@ layout: none
   li {
     margin: 0.25em 0;
   }
+}
+
+.primary-nav {
+  padding: 1rem;
+  margin: 0 auto 2rem;
+  max-width: 600px;
+  text-align: left;
+  background: var(--nav-bg);
+  border-radius: 8px;
+}
+
+.primary-nav a {
+  margin-right: 1rem;
 }

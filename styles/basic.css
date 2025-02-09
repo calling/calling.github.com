@@ -125,3 +125,5 @@ article {background: var(--body-bg); border-radius: var(--rc); padding: 1em; box
 
 [style*="--c:"]:first-child, section>section:first-child, article:first-child {margin-left:0}
 [style*="--c:"]:last-child, section>section:last-child, article:last-child {margin-right:0}
+
+
