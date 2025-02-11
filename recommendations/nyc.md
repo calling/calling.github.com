@@ -9,7 +9,7 @@ description: My recommendations for restaurants and attractions in New York City
 - [Katz's Delicatessen](https://www.katzsdelicatessen.com/)
 - [Raku](https://www.rakunyc.com)
 - [L'Artusi](https://www.lartusi.com/)
-- [Winner's](https://www.winnersnyc.com/)
+- [Winner](https://www.winner.nyc)
 - [Ample Hills Creamery](https://amplehills.com/)
 
 ## Attractions

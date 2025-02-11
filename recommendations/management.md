@@ -17,7 +17,7 @@ Engineering management specific
 
 - Manager’s Path
 - Making of a Manager
-- Elegant Puzzle
+- An Elegant Puzzle
 
 General business
 
