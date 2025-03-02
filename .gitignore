@@ -10,5 +10,3 @@ Thumbs.db
 .rvmrc
 Gemfile.lock
 
-# Ignore sass-cache files.
-*.sass-cache*

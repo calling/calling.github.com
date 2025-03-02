@@ -4,10 +4,6 @@ url: https://colinchang.org
 safe: true #Github Pages overrides lsi to safe
 lsi: false #Github pages overrides lsi to false
 
-sass:
-  sass_dir: styles
-  style: :compressed
-
 paginate: 5
 paginate_path: "/page:num"
 gems: [jekyll-paginate]

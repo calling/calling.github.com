@@ -1,7 +1,3 @@
----
-layout: none
----
-
 :root {
   --font: 1em/1.6 Verdana;
   --page-padding: clamp(1rem, 4vw, 1.5rem); /* Responsive padding */
@@ -56,16 +52,16 @@ h2 {
 .page {
   margin: 0 auto;
   max-width: 600px;
+}
 
-  ul {
-    display: inline-block;
-    text-align: left;
-    margin-top: 0;
-  }
+.page ul {
+  display: inline-block;
+  text-align: left;
+  margin-top: 0;
+}
 
-  li {
-    margin: 0.25em 0;
-  }
+.page li {
+  margin: 0.25em 0;
 }
 
 .primary-nav {
