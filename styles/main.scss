@@ -4,6 +4,7 @@ layout: none
 
 :root {
   --font: 1em/1.6 Verdana;
+  --page-padding: clamp(1rem, 4vw, 1.5rem); /* Responsive padding */
 }
 
 /* Light mode */
@@ -28,6 +29,26 @@ layout: none
   }
 }
 
+/* Mobile-first responsive design */
+body {
+  padding: 0 var(--page-padding);
+}
+
+/* Responsive heading size */
+h1 {
+  line-height: 1.2;
+  font-size: clamp(
+    1.8rem,
+    5vw,
+    2.625rem
+  ); /* Responsive font size based on viewport width */
+  overflow: visible;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 4vw, 1.625rem);
+}
+
 .home {
   text-align: center;
 }
@@ -48,7 +69,7 @@ layout: none
 }
 
 .primary-nav {
-  padding: 1rem;
+  padding: clamp(0.75rem, 2vw, 1rem);
   margin: 0 auto 2rem;
   max-width: 600px;
   text-align: left;
