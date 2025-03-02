@@ -1,0 +1,47 @@
+/* Blog styles */
+.blog .post-item {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.blog .post-date {
+  min-width: 100px;
+  color: #777;
+  margin-right: 1rem;
+}
+
+.blog .post-link {
+  text-decoration: none;
+}
+
+.blog .post-link:hover {
+  text-decoration: underline;
+}
+
+/* Individual post page styles */
+.post-date {
+  color: #777;
+}
+
+.post-content {
+  margin-top: 2rem;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-content pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-content pre {
+    background-color: #2a2a2a;
+  }
+}

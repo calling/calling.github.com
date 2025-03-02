@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Analysis Paralysis"
+published: false
 ---
 
 [msandford](https://news.ycombinator.com/user?id=msandford) on ["It’s Official: The Boomerang Kids Won’t Leave"](http://nyti.ms/1ql8KgP):
@@ -14,7 +15,7 @@ title: "Analysis Paralysis"
 
 > The "you can do anything" SEEMS really amazing and that you really should impress it upon all kids from an early age. It SOUNDS great, I mean who doesn't want to encourage kids to succeed? Ultimately though it may have been a bit self-defeating. When faced with too many choices many people fail to take any action at all.
 
-> http://en.wikipedia.org/wiki/Analysis_paralysis
+> <http://en.wikipedia.org/wiki/Analysis_paralysis>
 
--   [Thread](https://news.ycombinator.com/item?id=7920820)
--   [msandford's comment](https://news.ycombinator.com/item?id=7921453)
+- [Thread](https://news.ycombinator.com/item?id=7920820)
+- [msandford's comment](https://news.ycombinator.com/item?id=7921453)

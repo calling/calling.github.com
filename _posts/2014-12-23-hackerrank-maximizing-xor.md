@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Hacker Rank — Maximizing XOR
+published: false
 ---
 
-Problem: https://www.hackerrank.com/challenges/maximizing-xor
+Problem: <https://www.hackerrank.com/challenges/maximizing-xor>
 My solution:
 
 {% highlight javascript %}

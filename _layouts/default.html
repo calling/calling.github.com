@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="/styles/basic.css" />
     <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/blog.css" />
   </head>
   <!-- Google tag (gtag.js) -->
   <script
@@ -28,8 +29,9 @@
   <script src="/scripts/google-analytics.js" async></script>
   <body>
     <nav class="primary-nav">
-      <a href="/">Home</a>
-      <a href="/recommendations/">Recommendations</a>
+      {% for item in site.data.header %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
     </nav>
     <main class="{{ page.class }} page">{{ content }}</main>
   </body>

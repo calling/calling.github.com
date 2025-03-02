@@ -4,7 +4,11 @@
     "url": "/"
   },
   {
-    "title": "Now",
-    "url": "/now.html"
+    "title": "Blog",
+    "url": "/blog"
+  },
+  {
+    "title": "Recommendations",
+    "url": "/recommendations"
   }
 ]

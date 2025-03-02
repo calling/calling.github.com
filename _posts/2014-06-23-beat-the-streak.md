@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Beat The Streak"
+published: false
+
 ---
 
 Over the weekend my friend introduced me to [Beat The Streak](http://mlb.mlb.com/mlb/fantasy/bts/y2014/splash_index.jsp), a fantasy baseball game where you try to break Joe DiMaggio's 1941 record of 56 straight games with a hit. As a participant, your job is much more feasible (albeit less straightforward) than what DiMaggio did — merely predict a player each day who will earn a hit for 57 straight (game) days. This sounds deceivingly easy.
