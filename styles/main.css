@@ -61,7 +61,8 @@ h2 {
 }
 
 .home {
-  text-align: center;
+  margin-bottom: 0.5rem;
+  align-items: baseline;
 }
 
 .page {

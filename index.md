@@ -4,9 +4,9 @@ class: "home"
 description: "Colin Chang's personal website"
 ---
 
-# Colin Chang
+# About
 
-Software Engineering Manager
+Colin Chang, Software Engineering Manager
 
 - [LinkedIn](https://www.linkedin.com/in/colinichang/)
 - [Github](https://github.com/calling)

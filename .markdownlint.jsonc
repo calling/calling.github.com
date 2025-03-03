@@ -1,0 +1,6 @@
+{
+  "base": true,
+  "no-inline-html": false,
+  "line-length": false,
+  "single-title": false
+}
