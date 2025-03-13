@@ -28,9 +28,30 @@
   margin-top: 2rem;
 }
 
+/* Image styles with anti-blur techniques */
 .post-content img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Larger images on medium screens */
+@media (min-width: 700px) {
+  .post-content img {
+    max-width: 140%;
+    margin-left: -20%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+}
+
+/* Even larger images on wider screens */
+@media (min-width: 900px) {
+  .post-content img {
+    max-width: 180%;
+    margin-left: -40%;
+  }
 }
 
 .post-content pre {
