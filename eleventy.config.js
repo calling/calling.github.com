@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("posts", (api) =>
     api
-      .getFilteredByGlob("_posts/**/*.md")
+      .getFilteredByTag("posts")
       .filter((post) => post.data.published !== false)
       .reverse()
   );
@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
       if (data.published === false) {
         return false;
       }
-      if (data.page.inputPath.startsWith("./_posts/")) {
+      if (data.page.inputPath.startsWith("./posts/")) {
         const d = new Date(data.page.date);
         const year = d.getUTCFullYear();
         const month = String(d.getUTCMonth() + 1).padStart(2, "0");
@@ -43,12 +43,11 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: ".",
       output: "_site",
-      layouts: "_layouts",
       data: "_data",
       includes: "_includes",
     },
-    templateFormats: ["md", "html", "liquid", "njk"],
-    markdownTemplateEngine: "liquid",
-    htmlTemplateEngine: "liquid",
+    templateFormats: ["md", "html", "njk"],
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
   };
 };
