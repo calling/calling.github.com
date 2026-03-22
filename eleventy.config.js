@@ -16,7 +16,6 @@ module.exports = function (eleventyConfig) {
   ]);
 
   eleventyConfig.ignores.add("README.md");
-  eleventyConfig.ignores.add("PLAN.md");
 
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("scripts");
@@ -28,11 +27,11 @@ module.exports = function (eleventyConfig) {
     api
       .getFilteredByTag("posts")
       .filter((post) => post.data.published !== false)
-      .reverse()
+      .reverse(),
   );
 
   eleventyConfig.addFilter("dateFormat", (date) =>
-    new Date(date).toISOString().slice(0, 10)
+    new Date(date).toISOString().slice(0, 10),
   );
 
   eleventyConfig.addGlobalData("eleventyComputed", {
