@@ -3,6 +3,18 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
+  eleventyConfig.addGlobalData("site", {
+    name: "Colin Chang",
+    description: "Colin Chang's blog and project repository",
+    url: "https://colinchang.org",
+  });
+
+  eleventyConfig.addGlobalData("header", [
+    { title: "About", url: "/" },
+    { title: "Blog", url: "/blog" },
+    { title: "Recommendations", url: "/recommendations" },
+  ]);
+
   eleventyConfig.ignores.add("README.md");
   eleventyConfig.ignores.add("PLAN.md");
 
@@ -43,7 +55,6 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: ".",
       output: "_site",
-      data: "_data",
       includes: "_includes",
     },
     templateFormats: ["md", "html", "njk"],
