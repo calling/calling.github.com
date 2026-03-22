@@ -6,6 +6,7 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
+    platform: linux/arm64
     ports:
       - 4000:4000
     volumes:
