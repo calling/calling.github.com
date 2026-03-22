@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "NYC"
 description: My recommendations for restaurants and attractions in New York City
 ---
 

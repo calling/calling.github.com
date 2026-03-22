@@ -7,7 +7,7 @@ published: false
 Problem: <https://www.hackerrank.com/challenges/maximizing-xor>
 My solution:
 
-{% highlight javascript %}
+```javascript
 function maxXor(l, r) {
 var l = parseInt(l, 10), r = parseInt(r, 10);
 var max = 0
@@ -23,11 +23,11 @@ max = xor;
 }
 return max;
 }
-{% endhighlight %}
+```
 
 The solution ended up being more condensed than I had hoped. My original solution resembled:
 
-{% highlight javascript linenos %}
+```javascript
 function createPairs(l, r) {
 var result = [];
 for (var i = l; i <= r; i++) {
@@ -48,7 +48,7 @@ return pair[0] ^ pair[1];
 });
 return Math.max.apply(Math, xors);
 }
-{% endhighlight %}
+```
 
 I'll walk through my original solution first. `maxXor` takes two Strings of Numbers that ranged from \\(1 ≤ L ≤ R ≤ 10^{3}\\). The function must return the maximal values of A xor B given, \\(L ≤ A ≤ B ≤ R\\). First, we need the Numbers out of the Strings (line 14). Next, delegate to creating all possible pairs of A and B given the constraints of the problem. The function `createPairs` runs a two dimensional loop that returns an Array of Arrays (the inner Array representing a 'pair'). Next, xor all of the pairs, obtaining a new Array of Numbers. Next, courtesy of John Resig's [advice](http://ejohn.org/blog/fast-javascript-maxmin/) find the max Number of the Array.
 

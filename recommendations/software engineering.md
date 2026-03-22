@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "Software Engineering Resources"
 description: A curated list of my favorite software engineering resources
 ---
 

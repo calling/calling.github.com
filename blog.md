@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Blog"
 class: "blog"
 description: "Colin Chang's Blog"
@@ -6,10 +7,9 @@ description: "Colin Chang's Blog"
 
 # Blog
 
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts %}
+{% for post in collections.posts %}
   <div class="post-item">
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+    <span class="post-date">{{ post.date | dateFormat }}</span>
+    <a href="{{ post.url }}" class="post-link">{{ post.data.title }}</a>
   </div>
 {% endfor %}

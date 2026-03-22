@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Management",
+    "url": "management",
+    "description": "A curated list of management books, resources and tactics for engineering leaders"
+  },
+  {
+    "title": "NYC",
+    "url": "nyc",
+    "description": "My recommendations for restaurants and attractions in New York City"
+  },
+  {
+    "title": "Software Engineering",
+    "url": "software%20engineering",
+    "description": "A curated list of my favorite software engineering resources"
+  }
+]

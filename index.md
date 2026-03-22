@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Colin Chang - Software Engineering Manager"
 class: "home"
 description: "Colin Chang's personal website"

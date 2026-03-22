@@ -1,0 +1,14 @@
+{
+  "name": "colinchang.org",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "lint": "markdownlint-cli2 \"**/*.md\" \"!_site/**/*.md\" \"!node_modules/**/*.md\" \"!PLAN.md\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.0",
+    "markdownlint-cli2": "^0.17.0"
+  }
+}

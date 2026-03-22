@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "Management Resources"
 description: A curated list of management books, resources and tactics for engineering leaders
 ---
 
